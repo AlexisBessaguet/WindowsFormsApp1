@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.App_primaire.MathsCP.EX2;
 
 namespace WindowsFormsApp1
 {
@@ -31,6 +32,13 @@ namespace WindowsFormsApp1
             this.Close();
             EX1MathsCP eX1MathsCP  = new EX1MathsCP();
             eX1MathsCP.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            EX2MathsCP eX2MathsCP = new EX2MathsCP();
+            eX2MathsCP.Show();
         }
     }
 }

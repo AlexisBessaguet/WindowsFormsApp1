@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.App_primaire.CP.FrançaisCP;
 
 namespace WindowsFormsApp1
 {
@@ -79,6 +80,8 @@ namespace WindowsFormsApp1
 		private void FrançaisCP_Click(object sender, EventArgs e)
 		{
 			this.Close();
+			NiveauFrançaisCP niveauFrançaisCP = new NiveauFrançaisCP();
+			niveauFrançaisCP.Show();
 		}
 
 

@@ -16,6 +16,7 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
 			this.WindowState = FormWindowState.Maximized;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -32,9 +33,5 @@ namespace WindowsFormsApp1
             CN.Show();
         }
 
-		private void Acceuil_Load(object sender, EventArgs e)
-		{
-
-		}
 	}
 }

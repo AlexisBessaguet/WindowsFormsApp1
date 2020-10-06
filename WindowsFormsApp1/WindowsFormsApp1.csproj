@@ -67,22 +67,52 @@
     <Compile Include="App primaire\Accueil et Menu\Acceuil.Designer.cs">
       <DependentUpon>Acceuil.cs</DependentUpon>
     </Compile>
-    <Compile Include="App primaire\MathsCP\EX1\AideEx1.cs">
+    <Compile Include="App primaire\CP\FrançaisCP\EX1\AideEx1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="App primaire\MathsCP\EX1\AideEx1.Designer.cs">
+    <Compile Include="App primaire\CP\FrançaisCP\EX1\AideEx1.Designer.cs">
       <DependentUpon>AideEx1.cs</DependentUpon>
     </Compile>
-    <Compile Include="App primaire\MathsCP\EX1\EX1MathsCP.cs">
+    <Compile Include="App primaire\CP\FrançaisCP\EX1\EX1FrançaisCP.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="App primaire\MathsCP\EX1\EX1MathsCP.Designer.cs">
+    <Compile Include="App primaire\CP\FrançaisCP\EX1\EX1FrançaisCP.Designer.cs">
+      <DependentUpon>EX1FrançaisCP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App primaire\CP\FrançaisCP\NiveauFrançaisCP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App primaire\CP\FrançaisCP\NiveauFrançaisCP.Designer.cs">
+      <DependentUpon>NiveauFrançaisCP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App primaire\CP\MathsCP\EX1\AideEx1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App primaire\CP\MathsCP\EX1\AideEx1.Designer.cs">
+      <DependentUpon>AideEx1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App primaire\CP\MathsCP\EX1\EX1MathsCP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App primaire\CP\MathsCP\EX1\EX1MathsCP.Designer.cs">
       <DependentUpon>EX1MathsCP.cs</DependentUpon>
     </Compile>
-    <Compile Include="App primaire\MathsCP\NiveauMathsCP.cs">
+    <Compile Include="App primaire\CP\MathsCP\EX2\AideEx2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="App primaire\MathsCP\NiveauMathsCP.Designer.cs">
+    <Compile Include="App primaire\CP\MathsCP\EX2\AideEx2.Designer.cs">
+      <DependentUpon>AideEx2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App primaire\CP\MathsCP\EX2\EX2MathsCP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App primaire\CP\MathsCP\EX2\EX2MathsCP.Designer.cs">
+      <DependentUpon>EX2MathsCP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App primaire\CP\MathsCP\NiveauMathsCP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App primaire\CP\MathsCP\NiveauMathsCP.Designer.cs">
       <DependentUpon>NiveauMathsCP.cs</DependentUpon>
     </Compile>
     <Compile Include="App primaire\Accueil et Menu\Option.cs">
@@ -102,13 +132,28 @@
     <EmbeddedResource Include="App primaire\Accueil et Menu\Acceuil.resx">
       <DependentUpon>Acceuil.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="App primaire\MathsCP\EX1\AideEx1.resx">
+    <EmbeddedResource Include="App primaire\CP\FrançaisCP\EX1\AideEx1.resx">
       <DependentUpon>AideEx1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="App primaire\MathsCP\EX1\EX1MathsCP.resx">
+    <EmbeddedResource Include="App primaire\CP\FrançaisCP\EX1\EX1FrançaisCP.resx">
+      <DependentUpon>EX1FrançaisCP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App primaire\CP\FrançaisCP\NiveauFrançaisCP.resx">
+      <DependentUpon>NiveauFrançaisCP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App primaire\CP\MathsCP\EX1\AideEx1.resx">
+      <DependentUpon>AideEx1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App primaire\CP\MathsCP\EX1\EX1MathsCP.resx">
       <DependentUpon>EX1MathsCP.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="App primaire\MathsCP\NiveauMathsCP.resx">
+    <EmbeddedResource Include="App primaire\CP\MathsCP\EX2\AideEx2.resx">
+      <DependentUpon>AideEx2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App primaire\CP\MathsCP\EX2\EX2MathsCP.resx">
+      <DependentUpon>EX2MathsCP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App primaire\CP\MathsCP\NiveauMathsCP.resx">
       <DependentUpon>NiveauMathsCP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="App primaire\Accueil et Menu\Option.resx">
@@ -140,9 +185,8 @@
     <None Include="App primaire\Accueil et Menu\App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App primaire\MathsCP\EX2\" />
-    <Folder Include="App primaire\MathsCP\EX3\" />
-    <Folder Include="App primaire\MathsCP\EX4\" />
+    <Folder Include="App primaire\CP\MathsCP\EX3\" />
+    <Folder Include="App primaire\CP\MathsCP\EX4\" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

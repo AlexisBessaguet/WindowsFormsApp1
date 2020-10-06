@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp1.App_primaire.MathsCP.EX1;
+using WindowsFormsApp1.App_primaire.MathsCP.EX2;
 
 namespace WindowsFormsApp1
 {
@@ -19,11 +20,6 @@ namespace WindowsFormsApp1
 			this.WindowState = FormWindowState.Maximized;
 		}
 
-		private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
 
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -32,6 +28,20 @@ namespace WindowsFormsApp1
             {
                 aideEx1.ShowDialog();
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            ChoixNiveau choixNiveau = new ChoixNiveau();
+            choixNiveau.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            EX2MathsCP eX2MathsCP = new EX2MathsCP();
+            eX2MathsCP.Show();
         }
     }
 }
