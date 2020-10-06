@@ -15,9 +15,10 @@ namespace WindowsFormsApp1.App_primaire.MathsCP.EX1
         public AideEx1()
         {
             InitializeComponent();
-        }
+			this.StartPosition = FormStartPosition.CenterScreen;
+		}
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+		private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Close();
         }

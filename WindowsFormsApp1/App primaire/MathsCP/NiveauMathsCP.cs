@@ -15,10 +15,11 @@ namespace WindowsFormsApp1
         public NiveauMathsCP()
         {
             InitializeComponent();
-        }
+			this.WindowState = FormWindowState.Maximized;	
+		}
 
 
-        private void Retour_Choix_Click(object sender, EventArgs e)
+		private void Retour_Choix_Click(object sender, EventArgs e)
         {
             this.Close();
             ChoixNiveau choixNiveau = new ChoixNiveau();

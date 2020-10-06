@@ -15,9 +15,11 @@ namespace WindowsFormsApp1
         public Option()
         {
             InitializeComponent();
-        }
+			this.WindowState = FormWindowState.Maximized;
 
-        private void button1_Click(object sender, EventArgs e)
+		}
+
+		private void button1_Click(object sender, EventArgs e)
         {
 
         }
@@ -43,5 +45,10 @@ namespace WindowsFormsApp1
             Acceuil Ac = new Acceuil();
             Ac.Show();
         }
-    }
+
+		private void Option_Load(object sender, EventArgs e)
+		{
+
+		}
+	}
 }

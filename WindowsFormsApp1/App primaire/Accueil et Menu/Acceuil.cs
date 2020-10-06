@@ -15,6 +15,7 @@ namespace WindowsFormsApp1
         public Acceuil()
         {
             InitializeComponent();
+			this.WindowState = FormWindowState.Maximized;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -30,5 +31,10 @@ namespace WindowsFormsApp1
             ChoixNiveau CN = new ChoixNiveau();
             CN.Show();
         }
-    }
+
+		private void Acceuil_Load(object sender, EventArgs e)
+		{
+
+		}
+	}
 }

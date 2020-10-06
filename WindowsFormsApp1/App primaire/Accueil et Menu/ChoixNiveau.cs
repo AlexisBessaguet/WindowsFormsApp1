@@ -15,9 +15,11 @@ namespace WindowsFormsApp1
         public ChoixNiveau()
         {
             InitializeComponent();
-        }
+			this.WindowState = FormWindowState.Maximized;
 
-        private void BoutonCP_Click(object sender, EventArgs e)
+		}
+
+		private void BoutonCP_Click(object sender, EventArgs e)
         {
             this.Close();
             NiveauMathsCP niveauMathsCP = new NiveauMathsCP();
@@ -30,5 +32,10 @@ namespace WindowsFormsApp1
             Acceuil acceuil = new Acceuil();
             acceuil.Show();
         }
-    }
+
+		private void ChoixNiveau_Load(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
